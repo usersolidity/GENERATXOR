@@ -1,0 +1,43 @@
+{
+  "name": "generatxor",
+  "version": "1.0.0",
+  "description": "NFT and TOKEN PRODUCTION",
+  "main": "index.ts",
+  "repository": "https://github.com/zen2see/GENERATXOR.git",
+  "author": "zen zen2see@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^2.1.4",
+    "@openzeppelin/contracts": "^4.2.0",
+    "ethers": "^5.1.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "ts-generator": "^0.1.1",
+    "ts-node": "^10.2.0",
+    "typechain": "^5.1.2"
+  },
+  "devDependencies": {
+    "@ethersproject/abi": "^5.4.0",
+    "@ethersproject/bytes": "^5.4.0",
+    "@ethersproject/providers": "^5.4.3",
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@typechain/ethers-v5": "7.0.1",
+    "@typechain/hardhat": "^2.3.0",
+    "@types/chai": "^4.2.21",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.6.1",
+    "chai": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "ethereum-waffle": "^3.4.0",
+    "hardhat": "^2.6.0",
+    "hardhat-contract-sizer": "^2.0.3",
+    "hardhat-etherscan": "^1.0.1",
+    "lodash": "^4.17.21",
+    "prettier": "^2.3.2",
+    "prettier-plugin-solidity": "^1.0.0-beta.17",
+    "solidity-coverage": "^0.7.16",
+    "tsconfig-paths": "^3.10.1",
+    "typescript": ">=4.0.0"
+  }
+}

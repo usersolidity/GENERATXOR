@@ -1,9 +1,0 @@
-{
-  "name": "GENERATXOR",
-  "version": "1.0.0",
-  "description": "NFT and TOKEN PRODUCTION",
-  "main": "index.ts",
-  "repository": "https://github.com/zen2see/GENERATXOR.git",
-  "author": "zen zen2see@gmail.com",
-  "license": "MIT"
-}

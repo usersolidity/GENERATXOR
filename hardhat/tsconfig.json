@@ -1,0 +1,41 @@
+{
+  "files": [
+    "./hardhat.config.ts"
+  ],
+  "include": [
+    "src/**/*",
+    "scripts/**/*",
+    "test/**/*",
+    "packages/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "Example",
+    "build",
+    "dist"
+  ],
+  "exactOptionalPropertyTypes": true,
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "strict": true,
+    "strictNullChecks": true,
+    "baseUrl": "./",
+    "module": "commonJS",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "rootDir": ".",
+    "rootDirs": [
+      "src",
+       "generated"
+    ],
+    "declaration": true,
+    "declarationDir": "./types",
+    "declarationMap": true,
+    "outDir": "dist",
+    "allowJs": true,
+    "checkJs": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "target": "es2018",
+  }
+}
