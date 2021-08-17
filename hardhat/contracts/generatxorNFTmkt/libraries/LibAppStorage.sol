@@ -1,0 +1,13 @@
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.8.1;
+
+struct AppStorage {
+   
+    mapping(address => mapping(address => uint256)) allowances;
+    mapping(address => uint256) balances;
+    address[] approvedContracts;
+    mapping(address => uint256) approvedContractIndexes;
+    address contractOwner;
+    uint96 totalSupply;
+
+}
